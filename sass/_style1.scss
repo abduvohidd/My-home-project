@@ -311,20 +311,3 @@ html {
     }
   }
 }
-
-.section-1 {
-  background-image: url(/img-2/living-room.svg);
-  background-size: cover;
-  background-position: center;
-  height: 50vh;
-  background-repeat: no-repeat;
-
-  .container {
-    .cards {
-      display: flex;
-    }
-    .card-1 {
-      display: flex;
-    }
-  }
-}

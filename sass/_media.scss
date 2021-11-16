@@ -14,6 +14,25 @@
       }
     }
   }
+  .section-1 {
+    .container {
+      .cards {
+        .card-content {
+          left: 5%;
+        }
+        .card-content-1 {
+          left: 25%;
+        }
+
+        .card-content-4 {
+          right: 5%;
+        }
+        .card-content-3 {
+          right: 10%;
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 1300px) {
@@ -68,6 +87,12 @@
       }
     }
   }
+
+  .section-1 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
 }
 @media screen and (max-width: 1109px) {
   .catalogis {
@@ -76,9 +101,55 @@
       margin-left: 2rem;
     }
   }
+  .section-1 {
+    .container {
+      .cards {
+        .card-content-4 {
+          display: none;
+        }
+        .card-content {
+          display: none;
+        }
+        .card-content-1 {
+          left: 10%;
+        }
+        .card-content-2 {
+          left: 40%;
+        }
+        .card-content-3 {
+          right: 5%;
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 950px) {
+  .section-1 {
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    .container {
+      .card-content-3 {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .section-1 {
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    .container {
+      .cards {
+        .card-content-2 {
+          left: 50%;
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 605px) {
@@ -88,6 +159,20 @@
 
       .after {
         display: none;
+      }
+    }
+  }
+
+  .section-1 {
+    .container {
+      .cards {
+        .card-content-1 {
+          top: 20%;
+          left: 30%;
+        }
+        .card-content-2 {
+          display: none;
+        }
       }
     }
   }
@@ -134,6 +219,16 @@
       margin-right: 9rem;
     }
   }
+
+  .section-1 {
+    .container {
+      .cards {
+        .card-content-1 {
+          left: 20%;
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -155,6 +250,10 @@
     .button-icons {
       margin-right: 10rem;
     }
+  }
+
+  .section-1 {
+    display: none;
   }
 }
 
