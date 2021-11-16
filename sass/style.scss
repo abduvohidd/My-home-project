@@ -1,0 +1,29 @@
+$fontsize: 12px;
+$fontsize-1: 15px;
+$fontsize-2: 16px;
+$fontsize-3: 14px;
+$fontsize-3-1: 16px;
+$fontsize-4: 24px;
+$fontsize-5: 30px;
+$fontsize-6: 36px;
+// $fontsize-7: 64px;
+
+$fontfamily: "Actor", sans-serif;
+$fontfamily-1: "Source Sans Pro", sans-serif;
+
+$color-1: white;
+$color-2: black;
+$color: #5a5b6a;
+$color-3: #2264d1;
+$background: #ededf0;
+
+@mixin flex($justify, $align, $direction) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+
+@import "style1";
+@import "style2";
+@import "media";
