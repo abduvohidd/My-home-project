@@ -43,6 +43,29 @@
       }
     }
   }
+
+  .internet-watch {
+    .internet {
+      .internet-card {
+        video {
+          width: 280px;
+          height: 150px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1350px) {
+  .internet-watch {
+    .internet {
+      .internet-card {
+        video {
+          width: 250px;
+          height: 130px;
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 1300px) {
@@ -104,6 +127,37 @@
     background-size: auto;
   }
 }
+
+@media screen and (max-width: 1199px) {
+  .internet-paragraph {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    span {
+      text-align: center;
+    }
+  }
+  .internet-watch {
+    h2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .internet {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 15rem;
+      .internet-card {
+        video {
+          width: 300px;
+          height: 230px;
+        }
+      }
+    }
+  }
+}
 @media screen and (max-width: 1109px) {
   .catalogis {
     .catalog {
@@ -132,6 +186,13 @@
       }
     }
   }
+
+  .internet-watch {
+    .internet {
+      margin: 0px;
+      margin-left: 7rem;
+    }
+  }
 }
 
 @media screen and (max-width: 950px) {
@@ -143,6 +204,24 @@
       .card-content-3 {
         display: none;
       }
+    }
+  }
+
+  .internet-watch {
+    .internet {
+      margin: 0px;
+      margin-left: 5rem;
+    }
+  }
+}
+@media screen and(max-width:800px) {
+  .internet-watch {
+    h2 {
+      display: none;
+    }
+    border: none;
+    .internet {
+      flex-direction: column;
     }
   }
 }
@@ -218,6 +297,11 @@
 }
 
 @media screen and (max-width: 500px) {
+  .home-about {
+    .home {
+      margin: 0;
+    }
+  }
   .menu-search {
     margin-right: 7rem;
 
@@ -237,6 +321,15 @@
           left: 20%;
         }
       }
+    }
+  }
+
+  .internet-paragraph {
+    h1 {
+      font-size: $fontsize-4;
+    }
+    p {
+      font-size: $fontsize-3;
     }
   }
 }
@@ -267,7 +360,15 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 401px) {
+  .internet-paragraph {
+    h1 {
+      text-align: center;
+    }
+    p {
+      margin-left: 5rem;
+    }
+  }
   .background-fon {
     background-color: white;
   }
@@ -305,6 +406,32 @@
 
     .catalog {
       width: 100%;
+    }
+  }
+  .internet-watch {
+    .internet {
+      .internet-card {
+        video {
+          width: 200px;
+          height: 150px;
+        }
+        p {
+          margin-left: 2rem;
+          text-align: center;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+  }
+
+  .home-about {
+    .home {
+      width: 150px;
+      margin-top: 1rem;
+      img {
+        width: 150px;
+      }
     }
   }
 }

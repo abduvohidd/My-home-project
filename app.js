@@ -41,3 +41,17 @@ function closeMenu() {
   hamburger.classList.remove("active");
   navlinks.classList.remove("active");
 }
+
+const buttons = document.querySelectorAll(".buy button");
+
+buttons.forEach((button) => {
+  button.addEventListener("mouseover", (e) => {
+    button.innerHTML = "в корзине";
+    console.log(button);
+  });
+
+  button.addEventListener("mouseout", (e) => {
+    button.innerHTML = "КУПИТЬ";
+    console.log(button);
+  });
+});
